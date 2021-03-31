@@ -28,5 +28,5 @@ while True:
     text = irc.get_response()
 
     if "PRIVMSG" in text and botnick in text and "hello" in text:
-        irc.send(channel, "Hello !")Network-Communication-tools
+        irc.send(channel, "Hello !")
 ```
